@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USQL", "USQL\USQL.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLakeAnalyticsJob", "DataLakeAnalyticsJob\DataLakeAnalyticsJob.csproj", "{403910C9-5545-4B97-9AF5-F1B2D53E8D7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo", "TestDemo\TestDemo.csproj", "{01F953BE-43C6-43AC-A47A-6527B5205715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{403910C9-5545-4B97-9AF5-F1B2D53E8D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{403910C9-5545-4B97-9AF5-F1B2D53E8D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{403910C9-5545-4B97-9AF5-F1B2D53E8D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F953BE-43C6-43AC-A47A-6527B5205715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F953BE-43C6-43AC-A47A-6527B5205715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F953BE-43C6-43AC-A47A-6527B5205715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F953BE-43C6-43AC-A47A-6527B5205715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

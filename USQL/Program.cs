@@ -27,15 +27,15 @@ namespace USQL
 
         private static void Main(string[] args)
         {
-            _adlsAccountName = "xxxxxxxxxx"; // TODO: Replace this value with the name for a NEW Store account.
-            _adlaAccountName = "xxxxxxxxxx"; // TODO: Replace this value with the name for a NEW Analytics account.
+            _adlsAccountName = "xxxxxxxxxx"; // TODO: Replace this value with the name for a created Store account.
+            _adlaAccountName = "xxxxxxxxxx"; // TODO: Replace this value with the name for a created Analytics account.
             string localFolderPath = @"C:\tom\"; // TODO: Make sure this exists and contains the U-SQL script.
 
             // Authenticate the user
             // For more information about applications and instructions on how to get a client ID, see: 
             //   https://azure.microsoft.com/en-us/documentation/articles/resource-group-create-service-principal-portal/
             var tokenCreds = AuthenticateUser("common", "https://management.core.windows.net/",
-                "xxxxxxxxx", new Uri("http://localhost")); // TODO: Replace bracketed values.
+                "applicationId", new Uri("http://localhost")); // TODO: Replace bracketed values.
 
             SetupClients(tokenCreds, "xxxxxxxxxxxxx"); // TODO: Replace bracketed value.
 
